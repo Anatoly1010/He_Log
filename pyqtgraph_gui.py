@@ -34,7 +34,7 @@ class MainWindow(QtWidgets.QMainWindow):
         self.destroyed.connect(MainWindow.on_destroyed)         # connect some actions to exit
 
         # Load the UI Page
-        uic.loadUi('main_window.ui', self)        # Design file
+        uic.loadUi('main_window_pyqt.ui', self)        # Design file
 
         # Connection of different action to different Menus and Buttons
         self.actionFile.triggered.connect(self.exit)
