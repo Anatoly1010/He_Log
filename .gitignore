@@ -2,3 +2,5 @@
 access_token_dropbox.txt
 copy_folder.py
 folder_download.py
+/__pycache__
+timeaxis_test.py
